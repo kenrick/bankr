@@ -1,0 +1,39 @@
+{
+  "name": "bankr",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Kenrick Beckett <kenrick.beckett@gmail.com>",
+  "description": "a simple script for accessing bank account information from the terminal",
+  "contributors": [ 
+    {
+      "name": "Kenrick Beckett",
+      "email": "kenrick.beckett@gmail.com"
+    } 
+  ],
+  "bin": {
+    "bankr": "./bankr"
+  },
+  "scripts": {
+    "start": "node ./bin/http-server"
+  },
+  "main": "./bankr.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenrick/bankr.git"
+  },
+  "keywords": [
+    "ncb",
+    "bankr",
+    "accounts"
+  ],
+  "dependencies" : {
+    "prompt"   :  "*",
+    "phantom" :  "*",
+    "cli-table" :  "*"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
+
